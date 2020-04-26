@@ -1,0 +1,428 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"pass",
+				"password_verify"
+			],
+			[
+				"db",
+				"db_connect"
+			],
+			[
+				"pas",
+				"password2"
+			],
+			[
+				"pa",
+				"password1"
+			],
+			[
+				"passw",
+				"password1"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"oplei",
+				"opleiding_id"
+			],
+			[
+				"va",
+				"vak_id"
+			],
+			[
+				"opl",
+				"opleiding_id"
+			],
+			[
+				"s",
+				"select_vakken"
+			],
+			[
+				"select",
+				"select_opleidingen"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"start",
+				"startGame"
+			],
+			[
+				"onk",
+				"onkeypress\tAttr"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"totaal",
+				"totaal2"
+			],
+			[
+				"Gedi",
+				"Gedistilleerd2"
+			],
+			[
+				"G",
+				"Gedistilleerd"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"tesk",
+				"tekstObj"
+			],
+			[
+				"tekst",
+				"tekstObj"
+			],
+			[
+				"poster",
+				"posterObj"
+			],
+			[
+				"of",
+				"offsetTop"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"input\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet:",
+				"Snippet: html"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/2e_jaar/API_Project/index.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/css/index.css",
+		"/C/xampp/htdocs/2e_jaar/API_Project/css/sidenav.css",
+		"/C/xampp/htdocs/2e_jaar/API_Project/sidenav.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/css/theme_page.css",
+		"/C/xampp/htdocs/2e_jaar/API_Project/theme_page.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/Functions/functions.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/functions/login_functions.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/signup.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/database.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/toevoeg_update.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/functions/crud_functions.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/login.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/sidenav.html",
+		"/C/xampp/htdocs/2e_jaar/API_Project/css/database.css",
+		"/C/xampp/htdocs/2e_jaar/API_Project/Functions/crud_functions.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/css/login.css",
+		"/C/xampp/htdocs/2e_jaar/API_Project/Functions/login_functions.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/db_connect.php",
+		"/C/xampp/htdocs/2e_jaar/API_Project/functions.php",
+		"/C/xampp/htdocs/2e_jaar/Wigmans/koppel.php",
+		"/C/xampp/htdocs/1e_jaar/CRUD_toets/dbconnect.php",
+		"/C/xampp/htdocs/1e_jaar/CRUD_toets/gewijzigd.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/toevoeg_update.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/database.css",
+		"/C/xampp/htdocs/2e jaar/API_Project/Functions/CRUD_functions.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/database.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/db_connect.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/functions.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/theme_page.php",
+		"/C/xampp/htdocs/2e jaar/API_Project/index.css",
+		"/C/xampp/htdocs/2e jaar/API_Project/index.php",
+		"/C/xampp/htdocs/2e jaar/Wigmans/ajax.php",
+		"/C/xampp/htdocs/1e jaar/CRUD_toets/db_connect.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_05/05_09-final/chain_gang/private/classes/session.class.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_05/05_09-final/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/classes/databaseobject.class.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/classes/admin.class.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_05/05_02/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_05/05_03/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_05/05_02/chain_gang/public/index.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/database_functions.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/public/bicycles.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/initialize.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/public/detail.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_04/04_10-final/chain_gang/private/functions.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/classes/bicycle.class.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_04/04_10-final/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang.sql",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/functions.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_04/04_10-final/chain_gang/public/staff/index.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_03/03_06-final/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_06/06_05-final/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_05-final/chain_gang/public/bicycles.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_05-final/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_04/chain_gang/public/bicycles.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_04/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_04/chain_gang/private/database_functions.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_04/chain_gang/public/bicycles.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_01/chain_gang/private/db_credentials.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_01/chain_gang/private/initialize.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_02/02_01/chain_gang/private/database_functions.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_04-final/chain_gang/public/bicycles.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/chain_gang.sql",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_03/chain_gang.sql",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_03/create_table_bicycles.sql",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_03/insert_bicycles.sql",
+		"/C/xampp/htdocs/2e jaar/Ex_Files_PHP_OOP_Databases/Exercise Files/Chapter_01/01_04-final/chain_gang/private/functions.php",
+		"/C/Users/xavie/Desktop/Private_Projects/clock.css",
+		"/C/Users/xavie/Desktop/Private_Projects/clock.html",
+		"/C/Users/xavie/Desktop/JS/arraymethodes.html",
+		"/C/Users/xavie/Desktop/Private_Projects/Live_calculator.html",
+		"/C/xampp/htdocs/JS_Examen/style.css",
+		"/C/xampp/htdocs/JS_Examen/index.html",
+		"/C/xampp/htdocs/JS_Examen/Ayumi Hamasaki.jpg",
+		"/C/xampp/htdocs/Project Juni/index.html",
+		"/C/xampp/htdocs/Project Juni/db_connect.php",
+		"/C/xampp/htdocs/FsT/index.php",
+		"/C/Users/xavie/Downloads/palindroom.sql",
+		"/C/xampp/htdocs/MyFirstProject/Views/view.php",
+		"/C/xampp/htdocs/Project Juni/DBconfig.php",
+		"/C/xampp/htdocs/Project Juni/toegevoegd.php",
+		"/C/xampp/htdocs/Project Juni/class.user.php",
+		"/C/xampp/htdocs/Project Juni/logout.php",
+		"/C/xampp/htdocs/Project Juni/password.php",
+		"/C/xampp/htdocs/Project Juni/tabel.php",
+		"/C/xampp/htdocs/Project Juni/home.php",
+		"/C/xampp/htdocs/Project Juni/update_wijzig.php",
+		"/C/xampp/htdocs/Project Juni/contact_gegevens.php",
+		"/C/xampp/htdocs/Project Juni/life.php",
+		"/C/xampp/htdocs/Project Juni/connect.php",
+		"/C/xampp/htdocs/Project Juni/loggin_succes.php",
+		"/C/xampp/htdocs/Project Juni/index1.php",
+		"/C/xampp/htdocs/Project Juni/database.php",
+		"/C/xampp/htdocs/Project Juni/authentication.php",
+		"/C/xampp/htdocs/Project Juni/userclass.php",
+		"/C/xampp/htdocs/Project Juni/session.php",
+		"/C/xampp/htdocs/Project Juni/tabel_admin.php",
+		"/C/xampp/htdocs/Project Juni/contact.php",
+		"/C/xampp/htdocs/Project Juni/gewijzigd.php",
+		"/C/xampp/htdocs/Project Juni/delete.php",
+		"/C/xampp/htdocs/Project Juni/dashboard.php",
+		"/C/xampp/htdocs/Project Juni/config.php",
+		"/C/xampp/htdocs/Project Juni/conn.php",
+		"/C/xampp/htdocs/Project Juni/login.php",
+		"/C/xampp/htdocs/Project Juni/register.php",
+		"/C/xampp/htdocs/Project Juni/index.php",
+		"/C/xampp/htdocs/Project Juni/welcome.php",
+		"/C/xampp/htdocs/Project Juni/toevoeg_register.php",
+		"/C/xampp/htdocs/Project Juni/login2.php",
+		"/C/xampp/htdocs/Project Juni/register2.php",
+		"/C/xampp/htdocs/Development/PHP/H9/login.php",
+		"/C/xampp/htdocs/Project Juni/style.css",
+		"/C/xampp/htdocs/Project Juni/registreren.php",
+		"/C/xampp/htdocs/Project Juni/mail.php",
+		"/C/xampp/htdocs/Project Juni/wijzig.php",
+		"/C/Users/xavie/Downloads/paragraaf_5-9/index.html",
+		"/C/Users/xavie/Downloads/paragraaf_5-9/flashtix.js",
+		"/C/Users/xavie/Downloads/paragraaf_5-9.zip",
+		"/C/Users/xavie/Downloads/index.html",
+		"/C/xampp/htdocs/flashtix/index.html",
+		"/C/Users/xavie/Desktop/Development/Javascript/11_oppervlakteberekening2.html",
+		"/C/Users/xavie/Desktop/Development/Javascript/12_oppervlakteberekening3.html",
+		"/C/Users/xavie/Desktop/Development/Javascript/1_halloAllemaal - kopie.txt",
+		"/C/Users/xavie/Desktop/Development/Javascript/9_invoer3.html",
+		"/C/Users/xavie/Desktop/Development/Javascript/invoer3.html"
+	],
+	"find":
+	{
+		"height": 140.0
+	},
+	"find_in_files":
+	{
+		"height": 412.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 140.0
+	},
+	"input":
+	{
+		"height": 140.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "database.sublime-project",
+	"replace":
+	{
+		"height": 276.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
