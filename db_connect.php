@@ -3,7 +3,7 @@
 
 	$servername = "localhost";
 	$username = "root";
-	$password = "root";
+	$password = "";
 	$dbname = "API_Project";
 // connectie maken met PDO.
 
