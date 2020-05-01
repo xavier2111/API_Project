@@ -15,18 +15,24 @@ include('functions/functions.php');
 	</head>
 	<body>
 		<div id="sidebar"></div>
-		<h1 id="title"> Star Wars API</h1>
 		<div class="content">
-			<div id="info-container">	
-				<h1 id="name"></h1>
+			<h1 id="title"> Star Wars API</h1>
+			<div class="info-container">
+				<h1 id="name">Vul een naam in</h1>
 				<p id="height"></p>
 				<p id="mass"></p>
 				<p id="birth-year"></p>
-				<p id="height"></p>
-				<p id="height"></p>
 			</div>	
+
+			<div class="input-form">
+				<div class="input-field">
+					<input type="text" name="character" id="character"><br>
+				</div>
+				<div class="input-field">
+					<input type="submit" id="button" class="button" name="select" value="select" />
+				</div>
+			</div>
 		</div>
-		<input type="submit" id="button" class="button" name="select" value="select" />
 		<script src="js/sw_app.js" type="text/javascript"></script>
 	</body>
 </html>
