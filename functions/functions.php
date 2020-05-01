@@ -33,30 +33,29 @@
 
         // close curl resource to free up system resources
         curl_close($ch);
+        
+        $data = json_decode($output, true);
+        $character = array("name"=>$data["results"]["0"]["name"], 
+                            "height"=>$data["results"]["0"]["height"],
+                            "mass"=>$data["results"]["0"]["name"],
+                            "hair_color"=>$data["results"]["0"]["hair_color"],
+                            "eye_color"=>$data["results"]["0"]["eye_color"],
+                            "birth_year"=>$data["results"]["0"]["birth_year"],
+                            "gender"=>$data["results"]["0"]["gender"]);
+        // $name = $data["results"]["0"]["name"];
+        // $height = $data["results"]["0"]["height"];
+        // $mass = $data["results"]["0"]["mass"];
+        // $hair_color = $data["results"]["0"]["hair_color"];
+        // $eye_color = $data["results"]["0"]["eye_color"];
+        // $birth_year = $data["results"]["0"]["birth_year"];
+        // $gender = $data["results"]["0"]["gender"];
+        // $homeworld = $data["results"]["0"]["homeworld"];
 
-        echo $output;
+        print_r($character["name"]);
+        //echo $name;
+        
     }
 
-
-    function callAPI($search){
-            
-        // create curl resource
-        $ch = curl_init();
-
-        // set url
-        curl_setopt($ch, CURLOPT_URL, "https://swapi.co/api/people/?search=" . $search . "");
-
-        //return the transfer as a string
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-        // $output contains the output string
-        $output = curl_exec($ch);
-
-        // close curl resource to free up system resources
-        curl_close($ch);
-
-        echo $output;
-    }
             
 
     function getRows(){
