@@ -4,11 +4,16 @@ let height 		= document.querySelector('#height');
 let mass 		= document.querySelector('#mass');
 let birthYear 	= document.querySelector('#birth-year');
 
+console.log(character);
 
 // Initialize the HTTP request.
 function getInfo(){
+
+	var character 	= document.getElementById("character").value;
+	var url = 'https://swapi.dev/api/people/?search=' + character;
+
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://swapi.dev/api/people/1');
+	xhr.open('GET', url);
 
 	// Track the state changes of the request.
 	xhr.onreadystatechange = function () {
@@ -33,10 +38,10 @@ function getInfo(){
 
 
 function showInfo(data) {
-	name.innerText 		= data.name;
-	height.innerText 	= data.height;
-	mass.innerText 		= data.mass;
-	birthYear.innerText = data.birth_year;
+	name.innerText 		= data.results[0].name;
+	height.innerText 	= data.results[0].height;
+	mass.innerText 		= data.results[0].mass;
+	birthYear.innerText = data.results[0].birth_year;
 }
 
 button.addEventListener('click', getInfo);
