@@ -4,7 +4,6 @@ let height 		= document.querySelector('#height');
 let mass 		= document.querySelector('#mass');
 let birthYear 	= document.querySelector('#birth-year');
 
-console.log(character);
 
 // Initialize the HTTP request.
 function getInfo(){
@@ -24,7 +23,7 @@ function getInfo(){
 			if (xhr.status === OK) 
 			{
 				var data = JSON.parse(xhr.responseText);
-				showInfo(data);
+				showInfo1(data);
 			} 
 			else 
 			{
@@ -38,10 +37,44 @@ function getInfo(){
 
 
 function showInfo(data) {
-	name.innerText 		= data.results[0].name;
-	height.innerText 	= data.results[0].height;
-	mass.innerText 		= data.results[0].mass;
-	birthYear.innerText = data.results[0].birth_year;
+	for (var i = 0; i < data.results.length; i++) {		
+		name.innerText 		= data.results[i].name;
+		height.innerText 	= data.results[i].height;
+		mass.innerText 		= data.results[i].mass;
+		birthYear.innerText = data.results[i].birth_year;
+
+	}
+	
 }
 
+
+
+
+function showInfo1(data) {
+	if ($("#character-info").length > 0)
+	{	
+  		var list = document.getElementById("character-info");
+		list.parentNode.removeChild(list);
+	} else{
+		console.log("jojo");
+	}
+
+	var container = $("<div>").addClass("info-container").appendTo(".characters");
+  	var text = "Hello World!";
+  	var blockDiv;  // used in the for loop
+
+	for (var i = 0; i < data.results.length; i++) {		
+		// name.innerText 		= data.results[i].name;
+		// height.innerText 	= data.results[i].height;
+		// mass.innerText 		= data.results[i].mass;
+		// birthYear.innerText = data.results[i].birth_year;
+		blockDiv = $("<div>").attr('id',"character-info").addClass("character-info").appendTo(container);
+    	$('<h1>').text(data.results[i].name).appendTo(blockDiv);
+    	$('<p>').text("lengte: " 		+ 		data.results[i].height).appendTo(blockDiv);
+    	$('<p>').text("gewicht: " 		+ 	data.results[i].mass).appendTo(blockDiv);
+    	$('<p>').text("geboorte jaar: " + 	data.results[i].birth_year).appendTo(blockDiv);
+    	$('<br>').appendTo(blockDiv);
+	}
+	
+}
 button.addEventListener('click', getInfo);

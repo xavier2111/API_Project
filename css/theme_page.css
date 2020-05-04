@@ -15,7 +15,18 @@ html{
 
 }
 
-.info-container{
+info-container{
+  color: white;
+  border:2px solid #FFE81F;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+.character-info{
   color: white;
   border:2px solid #FFE81F;
   background-color: rgba(0, 0, 0, 0.8);
