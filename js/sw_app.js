@@ -53,27 +53,21 @@ function showInfo(data) {
 function showInfo1(data) {
 	if ($("#character-info").length > 0)
 	{	
-  		var list = document.getElementById("character-info");
+		var list = document.getElementById("info-container");
 		list.parentNode.removeChild(list);
-	} else{
-		console.log("jojo");
 	}
-
-	var container = $("<div>").addClass("info-container").appendTo(".characters");
-  	var text = "Hello World!";
+	
+	var container = $("<div>").attr('id',"info-container").addClass("info-container").appendTo(".characters");
   	var blockDiv;  // used in the for loop
 
-	for (var i = 0; i < data.results.length; i++) {		
-		// name.innerText 		= data.results[i].name;
-		// height.innerText 	= data.results[i].height;
-		// mass.innerText 		= data.results[i].mass;
-		// birthYear.innerText = data.results[i].birth_year;
+	for (var i = 0; i < data.results.length; i++) 
+	{		
 		blockDiv = $("<div>").attr('id',"character-info").addClass("character-info").appendTo(container);
+
     	$('<h1>').text(data.results[i].name).appendTo(blockDiv);
     	$('<p>').text("lengte: " 		+ 		data.results[i].height).appendTo(blockDiv);
     	$('<p>').text("gewicht: " 		+ 	data.results[i].mass).appendTo(blockDiv);
     	$('<p>').text("geboorte jaar: " + 	data.results[i].birth_year).appendTo(blockDiv);
-    	$('<br>').appendTo(blockDiv);
 	}
 	
 }
