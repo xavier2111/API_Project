@@ -14,10 +14,13 @@
     </script> 
 	</head>
 	<body>
+
 		<div id="sidebar"></div>
+		
 		<header>
 			<h2 style="opacity: 1 !important;">API Project</h2>
 		</header>
+
 		<div class="themes">
 			<?php getRows(); ?>	 
 		</div>

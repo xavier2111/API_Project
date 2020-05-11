@@ -3,16 +3,22 @@
 <head>
     <title>The Login Form</title>
     <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script> 
+        $(function(){
+          $("#sidebar").load("sidenav.php"); 
+        });
+    </script>
 </head>
 <body>
-<include src="sidenav.html"></include>
-  <div class="wrap">
+    <div id="sidebar"></div>
+    <div class="wrap">
         <form class="login-form" method="post" action="functions/login_functions.php">
             <div class="form-header">
                 <h3>Login Form</h3>
                 <p>Login om de database aan te passen</p>
             </div>
-            <!--Email Input-->
+            <!--Username Input-->
             <div class="form-group">
                 <input type="text" class="form-input" name="username" id="username" placeholder="Username" required="required">
             </div>

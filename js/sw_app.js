@@ -14,10 +14,10 @@ function getInfo(){
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', url);
 
-	// Track the state changes of the request.
+
 	xhr.onreadystatechange = function () {
-		var DONE = 4; // readyState 4 means the request is done.
-		var OK = 200; // status 200 is a successful return.
+		var DONE = 4;
+		var OK = 200;
 		if (xhr.readyState === DONE) 
 		{
 			if (xhr.status === OK) 
@@ -27,7 +27,7 @@ function getInfo(){
 			} 
 			else 
 			{
-				console.log('Error: ' + xhr.status); // An error occurred during the request.
+				console.log('Error: ' + xhr.status);
 			}
 		}
 	};
@@ -35,22 +35,8 @@ function getInfo(){
 }
 
 
-
-function showInfo(data) {
-	for (var i = 0; i < data.results.length; i++) {		
-		name.innerText 		= data.results[i].name;
-		height.innerText 	= data.results[i].height;
-		mass.innerText 		= data.results[i].mass;
-		birthYear.innerText = data.results[i].birth_year;
-
-	}
-	
-}
-
-
-
-
 function showInfo1(data) {
+	//Remove characters if present.
 	if ($("#character-info").length > 0)
 	{	
 		var list = document.getElementById("info-container");
@@ -58,8 +44,9 @@ function showInfo1(data) {
 	}
 	
 	var container = $("<div>").attr('id',"info-container").addClass("info-container").appendTo(".characters");
-  	var blockDiv;  // used in the for loop
+  	var blockDiv;
 
+  	//Create div for every character found.
 	for (var i = 0; i < data.results.length; i++) 
 	{		
 		blockDiv = $("<div>").attr('id',"character-info").addClass("character-info").appendTo(container);
