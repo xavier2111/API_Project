@@ -18,7 +18,7 @@ session_start();
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span class="material-icons" style="font-size:60px;color:#FFE81F;" onclick="openNav()">list</span>
+<span class="material-icons" style="font-size:60px;color:#FFE81F;cursor:pointer;" onclick="openNav()">list</span>
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";

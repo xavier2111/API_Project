@@ -55,6 +55,7 @@ function showInfo1(data) {
     	$('<p>').text("lengte: " 		+ 		data.results[i].height).appendTo(blockDiv);
     	$('<p>').text("gewicht: " 		+ 	data.results[i].mass).appendTo(blockDiv);
     	$('<p>').text("geboorte jaar: " + 	data.results[i].birth_year).appendTo(blockDiv);
+    	$('<br>').appendTo(container);
 	}
 	
 }
