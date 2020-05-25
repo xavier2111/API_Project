@@ -1,9 +1,11 @@
 html{
+    background-color: #000;
     background-image: url("../img/index_background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 body {

@@ -20,12 +20,13 @@ include('functions/functions.php');
 
 			<div class="input-form">
 				<div class="input-field">
-					<input type="text" name="character" id="character"><br>
+					<input type="text" class="input" name="character" id="character" autofocus="true" placeholder="luke skywalker"><br>
 				</div>
 				<div class="input-field">
-					<input type="submit" id="button" class="button" name="select" value="select" />
+					<input type="button" class="input" name="select" id="button" value="Zoek" />
 				</div>
 			</div>
+
 			<br>
 
 			<div class="characters" id="characters">

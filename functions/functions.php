@@ -3,13 +3,13 @@
     function getRows(){
         include 'db_connect.php';
 
-        $sql = "SELECT id, naam, beschrijving
+        $sql = "SELECT id, naam, beschrijving, locatie
                 FROM api_url";
                 
         $result = $conn->query($sql);
         while ($row = $result->fetch())
         {
-            echo '<a href="theme_page.php?id=' . $row['id'] . '">';
+            echo "<a href=" . $row['locatie'] . ">";
             echo "<div class='content'>";
             echo "<p>" . "<strong>" . $row['naam'] . "</strong>" . "</p>";
             echo "<p>" . $row['beschrijving'] . "</p>";
