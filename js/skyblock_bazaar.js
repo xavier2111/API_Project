@@ -118,8 +118,8 @@ function showInfo1(data) {
 //Display Glowstone prices
 	document.querySelector('#glowstone_buy_pp1').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.quick_status.buyPrice).toFixed(1));
 	document.querySelector('#glowstone_buy_pp64').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.quick_status.buyPrice * 64).toFixed(1));
-	document.querySelector('#glowstone_sell_pp1').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.quick_status.sellPrice).toFixed(1));
-	document.querySelector('#glowstone_sell_pp64').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.quick_status.sellPrice * 64).toFixed(1));
+	document.querySelector('#glowstone_sell_pp1').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.sell_summary[0].pricePerUnit).toFixed(1));
+	document.querySelector('#glowstone_sell_pp64').innerHTML =  formatNumber((data.products.ENCHANTED_GLOWSTONE.sell_summary[0].pricePerUnit * 64).toFixed(1));
 
 //Display Clay prices
 	document.querySelector('#clay_buy_pp1').innerHTML =  formatNumber((data.products.ENCHANTED_CLAY_BALL.quick_status.buyPrice).toFixed(1));
