@@ -3,18 +3,19 @@
 	<head> 
 		<meta charset="utf-8"> 
 
-			<title> toevoeg/update </title>
-			<link rel="stylesheet" type="text/css" href="database.css" />
+		<title> toevoeg/update </title>
+		<link rel="stylesheet" type="text/css" href="css/toevoeg_update.css" />
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <script> 
-		    $(function(){
-		      $("#sidebar").load("sidenav.php"); 
-		    });	
-		</script>
+	    $(function(){
+	      $("#sidebar").load("sidenav.php"); 
+	    });
+    </script>
 					
 	</head>
 	<body>
+		<div id="sidebar"></div>
 <?php
 include 'db_connect.php';
 $mode = $_GET["mode"];
@@ -45,10 +46,10 @@ if ($mode == "update"){
 
 	?>
 		<form action= "<?=$toevoeg_update?>" method="post">
-				ID: <input type="text" name="id" value="<?=$checkID?>"><br>
-				URL: <input type="text" name="url" value="<?=$checkURL?>"><br>
-				Beschrijving: <input type="text" name="beschrijving" value="<?=$checkBeschrijving?>"><br>
-				Naam: <input type="text" name="naam" value="<?=$checkNaam?>"><br>
+				ID:<input type="text" name="id" value="<?=$checkID?>" placeholder="id"><br>
+				URL:<input type="text" name="url" value="<?=$checkURL?>" placeholder="url"><br>
+				Beschijving:<input type="text" name="beschrijving" value="<?=$checkBeschrijving?>" placeholder="beschrijving" ><br>
+				Naam:<input type="text" name="naam" value="<?=$checkNaam?>" placeholder="naam"><br>
 			<input type="submit">
 		</form>
 	</body>

@@ -21,14 +21,14 @@ elseif (isset($_GET['mode']) && $_GET['mode'] == 'wijzigen')
 
         $result = $conn->query($sql);
        
-        echo "<table>";
+        echo "<table class='table'>";
             echo "<tr>";
             echo  "<th> id </th>";
             echo  "<th> url</th>";
             echo  "<th> beschrijving </th>";
             echo  "<th> naam </th>";
             echo  "<th> Wijzig </th>";
-            echo  "<th> Verwijderen </th>";
+            echo  "<th> Verwijder </th>";
             echo "</tr>";
             
             while ($row = $result->fetch()) 
@@ -38,8 +38,8 @@ elseif (isset($_GET['mode']) && $_GET['mode'] == 'wijzigen')
                 echo "<td>"     .$row['url']. "</td>";
                 echo "<td>"     .$row['beschrijving']."</td>";
                 echo "<td>"     .$row['naam']."</td>";
-                echo "<td>" .'<a href="./toevoeg_update.php?mode=update&&id='. $row['id'] . '">' . 'wijzig '. "</a>" ."</td>";
-                echo "<td>" .'<a href="functions/CRUD_functions.php?mode=delete&&id='. $row['id'] . '">' . 'delete '. "</a>" ."</td>";
+                echo "<td>" .'<a href="./toevoeg_update.php?mode=update&&id='. $row['id'] . '">' . 'wijzig'. "</a>" ."</td>";
+                echo "<td>" .'<a href="functions/CRUD_functions.php?mode=delete&&id='. $row['id'] . '">' . 'verwijder'. "</a>" ."</td>";
                 echo "</tr>";
             }
         echo "</table>";

@@ -24,6 +24,7 @@ function getInfo(){
 			{
 				var data = JSON.parse(xhr.responseText);
 				showInfo1(data);
+				
 			} 
 			else 
 			{
@@ -36,7 +37,7 @@ function getInfo(){
 
 
 function showInfo1(data) {
-	//Remove characters if present.
+	//Verwijder character als er een is
 	if ($("#character-info").length > 0)
 	{	
 		var list = document.getElementById("info-container");
@@ -46,7 +47,7 @@ function showInfo1(data) {
 	var container = $("<div>").attr('id',"info-container").addClass("info-container").appendTo(".characters");
   	var blockDiv;
 
-  	//Create div for every character found.
+  	//Maak een div voor elke character
 	for (var i = 0; i < data.results.length; i++) 
 	{		
 		blockDiv = $("<div>").attr('id',"character-info").addClass("character-info").appendTo(container);

@@ -16,18 +16,17 @@
     <div class="wrap">
         <form class="login-form" method="post" action="functions/login_functions.php">
             <div class="form-header">
-                <h3>Login Form</h3>
-                <p>Login om de database aan te passen</p>
+                <h3>Login </h3>
             </div>
 
             <!--Username Input-->
             <div class="form-group">
-                <input type="text" class="form-input" name="username" id="username" placeholder="Username" required="required">
+                <input type="text" class="form-input" name="username" id="username" placeholder="Gebruikersnaam" required="required">
             </div>
 
             <!--Password Input-->
             <div class="form-group">
-                <input type="password" class="form-input" name="password" id="password" placeholder="password" required="required">
+                <input type="password" class="form-input" name="password" id="password" placeholder="Wachtwoord" required="required">
             </div>
 
             <!--Login Button-->

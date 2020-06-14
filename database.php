@@ -24,8 +24,10 @@
 	</head>
 	<body>
 		<div id="sidebar"></div>
-		<h3>Database</h3> 
-	  	<a href="toevoeg_update.php?mode=toevoegen"> <strong>Nieuwe rij toevoegen</strong></a>
+		<h3>Database</h3>
+	  	<button class="button" onclick="window.location.href='toevoeg_update.php?mode=toevoegen';">
+	  		<strong>Voeg een nieuwe rij toe<strong>
+	  	</button>
 	  	<br>
 	  	<br>
 

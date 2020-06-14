@@ -3,13 +3,15 @@
 	<head>
 		<title>API</title>
 		<link rel="stylesheet" type="text/css" href="css/skyblock.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script> 
+	    $(function(){
+	      $("#sidebar").load("sidenav.php"); 
+	    });
+    </script> 
 	</head>
 	<body onload="getInfo()">
-		<div class="btn-group">
-			<button>Minions</button>
-			<button>Wood Logs</button>
-			<button>Common</button>
-		</div>
+		<div id="sidebar"></div>
 		<br>
 		<table>
 			<tr>
@@ -19,7 +21,6 @@
 				<th>Huidige prijs</th>
 				<th>Coins per 24 uur</th>
 				<th>Met Dia spr</th>
-				<th>Alle minions</th>
 			</tr>
 			<!-- Cow 11 -->
 			<tr>
@@ -29,7 +30,6 @@
 				<td id="cow11_ppu"></td>
 				<td id="cow11_c24"></td>
 				<td id="cow11_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Cow 9 -->
 			<tr>
@@ -39,7 +39,6 @@
 				<td id="cow9_ppu"></td>
 				<td id="cow9_c24"></td>
 				<td id="cow9_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Glowstone 9 -->
 			<tr>
@@ -49,7 +48,6 @@
 				<td id="glowstone9_ppu"></td>
 				<td id="glowstone9_c24"></td>
 				<td id="glowstone9_dia"></td>
-				<td></td>
 			</tr>
 
 			<!-- Glowstone 7 -->
@@ -60,7 +58,6 @@
 				<td id="glowstone7_ppu"></td>
 				<td id="glowstone7_c24"></td>
 				<td id="glowstone7_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Clay 11 -->
 			<tr>
@@ -70,7 +67,6 @@
 				<td id="clay11_ppu"></td>
 				<td id="clay11_c24"></td>
 				<td id="clay11_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Gold 9 -->
 			<tr>
@@ -80,7 +76,6 @@
 				<td id="gold_ppu"></td>
 				<td id="gold_c24"></td>
 				<td id="gold_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Mutton 11 -->
 			<tr>
@@ -90,7 +85,6 @@
 				<td id="mutton_ppu"></td>
 				<td id="mutton_c24"></td>
 				<td id="mutton_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Snow 11 -->
 			<tr>
@@ -100,7 +94,6 @@
 				<td id="snow_ppu"></td>
 				<td id="snow_c24"></td>
 				<td id="snow_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Chicken 11 -->
 			<tr>
@@ -110,7 +103,6 @@
 				<td id="chicken_ppu"></td>
 				<td id="chicken_c24"></td>
 				<td id="chicken_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Gunpowder 9 -->
 			<tr>
@@ -120,7 +112,6 @@
 				<td id="gunpowder_ppu"></td>
 				<td id="gunpowder_c24"></td>
 				<td id="gunpowder_dia"></td>
-				<td></td>
 			</tr>
 			<!-- Blaze 9 -->
 			<tr>
@@ -130,7 +121,6 @@
 				<td id="blaze_ppu"></td>
 				<td id="blaze_c24"></td>
 				<td id="blaze_dia"></td>
-				<td></td>
 			</tr>
 		</table>
 		<br>

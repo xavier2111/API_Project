@@ -26,7 +26,7 @@
 		</div>
 
 		<footer>
-		  <p>Footer</p>
+		  <p>Joop Doop INC.</p>
 		</footer>
 	</body>
 </html>
